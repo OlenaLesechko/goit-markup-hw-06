@@ -14,6 +14,7 @@
 }
 
 footer {
+    width: 100%;
     background-color: #2E2F42;
     padding: 97px 0 96px 0;
 }
@@ -241,15 +242,15 @@ footer fieldset {
     padding-left: 15px;
     padding-right: 15px;
     row-gap: 0;
-        column-gap: 0;
-}
-.container-footer {
-    margin-right: 120px;
+    column-gap: 0;
 }
 .social-link-footer {
     margin-right: 80px;
 }
 
+.container-logo-footer {
+    margin-right: 120px;
+}
 }
 
 

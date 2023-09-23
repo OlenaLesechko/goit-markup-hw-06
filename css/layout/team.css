@@ -122,6 +122,12 @@
     .team {
         padding: 120px 0;
     }
+    
+    .team-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
     .list-page-team {
     justify-content: center;
     background-color: #FFFFFF;
