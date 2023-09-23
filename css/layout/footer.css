@@ -216,6 +216,7 @@ footer fieldset {
     gap: 0;
     align-items: flex-start;
     justify-content: flex-start;
+
 }
 
 .subscribe-form-footer {
@@ -224,9 +225,11 @@ footer fieldset {
     }
 .text-footer-subscribe {
     text-align: left;
+    margin-bottom: 16px;
 }
 .text-footer-subscribe {
     align-items: flex-start;
+    margin-right: 80px;
     
 }
   }
