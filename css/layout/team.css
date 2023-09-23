@@ -108,8 +108,7 @@
     .team-list {
         flex-direction: row;
         flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 64px;
+        gap: 64px 24px;
     }
 }
 
