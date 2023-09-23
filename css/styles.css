@@ -1,4 +1,4 @@
-
+/* 
 
 
 
@@ -235,7 +235,7 @@
 
 
  /*========== BACKDROP ========*/
-.backdrop {
+/*.backdrop {
     position: fixed;
     z-index: 88888888;
     top: 0;
@@ -257,7 +257,7 @@
    /*========== BACKDROP ========*/
 
    /*========== MODAL WINDOW ========*/
-.modal {
+/* .modal {
     
     position: absolute;
     top: 50%;
@@ -310,7 +310,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*========== P ========*/ 
-.form-description {
+/* .form-description {
 width: 360px;
 color: #2E2F42;
 text-align: center;
@@ -424,10 +424,10 @@ margin-bottom: 16px;
     fill:#F4F4FD;
     border: none;
 }
-/*
+
 .review-form-checkbox-input:focus + .review-form-checkbox-label > .review-form-own-checkbox {
     border: 1px solid #4D5AE5;
-}*/
+
 
 .review-form-privacy-link {
     color: #4D5AE5;
@@ -470,4 +470,4 @@ margin-bottom: 16px;
     border-radius: 4px;
     background: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+}  */

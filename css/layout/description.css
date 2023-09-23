@@ -50,7 +50,10 @@
     .description-page {
         padding: 96px 0;
     }
-
+    
+ .desc-text {
+        width: 356px;
+    }
     .description-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -58,9 +61,7 @@
         row-gap: 72px; 
     } 
 
-    .desc-text {
-        width: 356px;
-    }
+   
     
     .headlines {
         text-align: left;
@@ -94,6 +95,25 @@
         font-weight: 400;
     }
 
+    .desc-text {
+    background-color: #FFFFFF;
+    column-gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+
+.description-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+}
     .description-icon {
         width: 100%;
         border: 1px solid rgba(142, 143, 153, 1);
