@@ -15,15 +15,22 @@
 
 footer {
     background-color: #2E2F42;
-    padding: 97.5px 0 96px 0;
+    padding: 97px 0 96px 0;
 }
 
+.logo-container {
+    margin-bottom: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 102px;
+}
 .container-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 72px;
+    gap: 17.5px;
+    margin-bottom: 72px;
 }
 
 .container-logo-footer {
@@ -135,7 +142,9 @@ footer fieldset {
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    background-color: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: transparent;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
@@ -148,6 +157,10 @@ footer fieldset {
     color: #FFFFFF;
 }
 
+.subscribe-form-footer-input:focus {
+    border: 1px solid #4D5AE5;
+    outline: transparent;
+}
 
 .footer-button-subscribe {
     width: 165px;
@@ -170,6 +183,13 @@ footer fieldset {
     margin-right: auto;
 }
 
+.footer-button-subscribe:focus,
+.footer-button-subscribe:hover {
+    border-radius: 4px;
+    background: #404BBF;
+    outline: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
 .subscribe-footer-icon-frame {
     margin-left: 16px;
 }
