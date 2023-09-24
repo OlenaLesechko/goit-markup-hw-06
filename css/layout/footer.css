@@ -212,6 +212,9 @@ footer fieldset {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+    .container-logo-footer {
+        align-items: flex-start;
+    }
     .container-footer {
     display: flex;
     flex-direction: row;
