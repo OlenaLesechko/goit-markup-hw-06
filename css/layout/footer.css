@@ -77,9 +77,14 @@ footer {
 
 .social-list-footer {
     display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+/* .social-list-footer {
+    display: flex;
     align-items: center;
 
-}
+} */
 
 .social-link-list-footer {
     width: 40px;
@@ -212,6 +217,7 @@ footer fieldset {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+
     .container-logo-footer {
         align-items: flex-start;
     }
