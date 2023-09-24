@@ -3,9 +3,7 @@
 /* MOBILE */
 
 .logo {
-    color: #4d5ae5;
-    margin-bottom: 17.5px;
-    
+    color: #4d5ae5; 
     
 }
 
@@ -208,9 +206,6 @@ footer fieldset {
     justify-content: flex-start;
     padding-left: 108px;
 }
-.container-footer {
-    align-items: flex-start;
-   }
 
 .social-link-footer {
     gap: 0;
@@ -250,7 +245,9 @@ footer fieldset {
 .social-link-footer {
     margin-right: 80px;
 }
-
+.logo-container {
+    margin-bottom: 17.5px;
+}
 .container-logo-footer {
     margin-right: 120px;
 }
