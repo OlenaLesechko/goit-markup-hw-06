@@ -215,7 +215,12 @@ footer fieldset {
 
     .container-logo-footer {
         align-items: flex-start;
+        min-width: 264px;
     }
+    .logo-container {
+    margin-left: 0;
+    margin-right: 0;
+}
     .container-footer {
     display: flex;
     flex-direction: row;
