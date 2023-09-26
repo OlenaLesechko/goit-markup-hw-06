@@ -113,8 +113,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 @media screen and (min-width: 1440px) {
     .container { 
         width: 1158px;   
-        padding-top: 188px; 
-        padding-bottom: 188px;
         margin: 0 auto; 
 }
 .main-title {
